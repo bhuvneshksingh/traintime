@@ -1,0 +1,32 @@
+@mixin text-body {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+}
+
+// PX to REM based on 14px
+// 8px = 0.5714rem
+// 9px = 0.6429rem
+// 10px = 0.7143rem
+// 11px = 0.7857rem
+// 12px = 0.8571rem
+// 13px = 0.9286rem
+// 14px = 1rem (base)
+// 15px = 1.071rem
+// 16px = 1.142rem
+// 18px = 1.286rem
+// 20px = 1.429rem
+// 22px = 1.571rem
+// 24px = 1.714rem
+// 26px = 1.857rem
+// 28px = 2rem
+// 30px = 2.143rem
+// 32px = 2.286rem
+// 34px = 2.429rem
+// 36px = 2.571rem
+// 38px = 2.714rem
+// 40px = 2.857rem
+// 48px = 3.428 rem
+// 60px = 4.285rem

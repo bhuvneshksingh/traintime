@@ -1,0 +1,78 @@
+.my-profile {
+  &__images-preview {
+    display: flex;
+    position: relative;
+
+    .previews {
+      position: relative;
+    }
+
+    .control-buttons {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+
+      .upload-button {
+        width: 210px;
+        margin: 22px auto;
+        height: 52px;
+      }
+
+      .upload {
+        svg {
+          margin-right: 12px;
+        }
+      }
+
+      .confirmation-buttons {
+        width: 100%;
+
+        p {
+          font-size: 1.142rem;
+        }
+
+        div {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    .cover-image {
+      width: 100%;
+      max-width: 656px;
+      max-height: 369px;
+      border-radius: 5px;
+      object-fit: cover;
+      border-color: rgba(112, 112, 112, 0.18);
+
+      @media only screen and (max-width: 1250px) {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+      }
+
+      @media only screen and (max-width: 960px) {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .avatar-image {
+      width: 200px;
+      height: 200px;
+      object-fit: fill;
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      background-color: aliceblue;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, -5%);
+
+      @media only screen and (max-width: 600px) {
+        width: 124px;
+        height: 124px;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+
+// event-page
+{
+    "images": [
+        {
+            "title": "Image 1",
+            "description": "Description 1",
+            "location": "Location 1",
+            "src":
+                "https://thinkwy.org/wp-content/uploads/2017/10/hpfulq-1234.jpg"
+        },
+        {
+            "title": "Image 2",
+            "description": "Description 2",
+            "location": "Location 3",
+            "src":
+                "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1562563952/users/sebastian-cover_lyq785.jpg"
+        },
+        {
+            "title": "Image 3",
+            "description": "Description 3",
+            "location": "Location 3",
+            "src":
+                "https://thinkwy.org/wp-content/uploads/2017/10/hpfulq-1234.jpg"
+        }
+    ]
+}
+{
+    "participant-item":[
+        {
+     "img src"="https://res.cloudinary.com/dhrg9zqj4/image/upload/v1562563952/users/victor_t0shsk.png"
+                    "alt"="kdjkfhdj"
+
+        }
+    ]
+}
+
+"waypoint":[
+    {
+                "img src"="https://res.cloudinary.com/dhrg9zqj4/image/upload/v1562563952/users/sebastian-cover_lyq785.jpg"
+                    "alt"="sdfsdf"
+    }
+]
+
+"search-events-by-params":
+[
+    {
+        "id": 1,
+        "name": "Cycling",
+        "photoURL": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1562564589/events/cycling_t6yttc.jpg",
+        "photoDescription": "Cycling",
+        "location": "Štrbské Pleso, Slovakia",
+        "date": "25 May, 2019",
+        "joinedPeople": 5
+    },
+    {
+        "id": 2,
+        "name": "Snowboarding",
+        "photoURL": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1562564589/events/snowboarding_g9af4c.jpg",
+        "photoDescription": "Snowboarding",
+        "location": "Štrbské Pleso, Slovakia",
+        "date": "25 May, 2019",
+        "joinedPeople": 5
+    },
+    {
+        "id": 3,
+        "name": "Skating",
+        "photoURL": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1562564589/events/skating_k3fmin.jpg",
+        "photoDescription": "Skating",
+        "location": "Štrbské Pleso, Slovakia",
+        "date": "25 May, 2019",
+        "joinedPeople": 5
+    }
+]

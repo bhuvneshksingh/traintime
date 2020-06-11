@@ -1,0 +1,289 @@
+{
+
+    "site-name": "Train Time CZ",
+    "home": "Domů",
+  "create-activity": "Vytvoř aktivitu",
+  "edit-profile": "Můj profil",
+  "settings": "Nastavení",
+  "invite-friends": "Pozvat kamarády",
+  "logout": "Logout",
+  "news": "Nové zprávy",
+  "about": "O nás",
+  "sign-up": "Sign Up",
+  "login": "Login",
+  "empty-favorite-list": "Váš oblíbený list je prázdný",
+
+  "discard": "Vyřadit",
+  "confirm": "Potvrdit",
+  "save": "Uložit",
+  "cancel": "Cancel",
+  "save-sport": "Přidat sport",
+  "save-language": "Přidat jazyk",
+  "search": "Hledat",
+  "createAccount": "Vytvoř účet",
+  "createEvent": "Vytvoř událost",
+  "next-step": "Příští krok",
+  "previous-step": "Předchozí krok",
+  "upload-photo": "Nahraj foto",
+  "edit": "Edit",
+  "finish": "Finish",
+  "skip": "Udělám to později",
+  "name": "Vaše jméno",
+  "first-name": "Jméno",
+  "middle-name": "Prostřední jméno ",
+  "second-name": "Příjmení",
+  "birthday": "Narozeniny",
+  "gender": "Pohlaví",
+  "male": "Muž",
+  "female": "Žena",
+  "not-to-say": "Preferuji neodpovědět",
+  "day": "Den",
+  "month": "Měsíc",
+  "year": "Rok",
+  "sport": "Sport",
+  "phone-number": "Telefonní číslo",
+  "language": "Jayzk",
+  "primary-language": "Tvůj hlavní jazyk",
+  "languages": "Jazyky kterými mluvíš",
+  "practiced-sport": "Jaké sporty děláš?",
+  "sports-to-learn": "Jaké sporty se chceš učit",
+  "profile-picture": "Profilová fotka",
+  "edit-avatar": "Uprav svůj avatar",
+  "choose-image": "Klikni a vyber si svůj image",
+
+
+
+    "navbar": {
+        "siteName": "Train Time CZ",
+        "home": "Domů",
+        "news": "Naše zprávy",
+        "about": "O společnosti",
+        "signUp": "Sign Up",
+        "login": "Login"
+    },
+    "searchForm": {
+        "title": "Vyber si co hledáš",
+        "countryLabel": "Země",
+        "cityLabel": "MĚSTO",
+        "sportLabel": "SPORT",
+        "languageLabel": "JAZYK",
+        "searchLabel": "Vyzkoušej aktivitu",
+        "searchButton": "Hledat"
+    },
+    "findPlace": {
+        "searchLabel": "Kam chcete jít?"
+    },
+    "findUser": {
+        "searchLabel": "Kam chcete jít?"
+    },
+    "findEvent": {
+        "searchLabel": "Kam chcete jít?"
+    },
+    "homeAccountBanner": {
+        "title": "Pomožte lidem nalézt Vás",
+        "subtitle": "Vytvoř si personální account zadara !",
+        "photo_url": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1561046307/banner-1.png",
+        "photo_description": "Pomožte lidem nalézt Vás",
+        "button_text": "Vytvoř účet"
+    },
+    "homeEventBanner": {
+        "title": "Vytvoř si svoji událost",
+        "subtitle": " Vytvoř si svůj vlastní účet zdarma",
+        "photo_url": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1561047389/banner-2.png",
+        "photo_description": "Vytvoř si svoji událost",
+        "button_text": "Vytvoř událost"
+    },
+    "personalInfoSteps": [
+        {
+          "name": "Krok 1",
+          "title": "Přidej hlavní informace o sobě",
+          "description": "Vytvoř účet"
+        },
+        {
+          "name": "Krok 2",
+          "title": "Řekni lidem o svých sportovních preferencích",
+          "description": "Vytvoř účet"
+        },
+        {
+          "name": "Krok 3",
+          "title": "Řekni lidem o svých sportovních preferencích",
+          "description": "Vytvoř účet"
+        }
+      ],
+
+
+    "createEventSteps": [
+        {
+            "name": "Krok 1",
+            "title": "Vytvoř si novou událost",
+            "description": "Vyberte typ události"
+        },
+        {
+            "name": "Krok 2",
+            "title": "Prosím odpovězte následující otázky",
+            "description": "Vyberte typ události"
+        },
+        {
+            "name": "Krok 3",
+            "title": "Popište svoji událost",
+            "description": "Vyberte typ události"
+        },
+        {
+            "name": "Krok 4",
+            "title": "Nastav si požadavky",
+            "description": "Požadavky"
+        },
+        {
+            "name": "Krok 5",
+            "title": "Lokalizace",
+            "description": "Lokalizace"
+        },
+        {
+            "name": "Krok 6",
+            "title": " Nastavte si datum události",
+            "description": "Lokace"
+        },
+        {
+            "name": "Krok 7",
+            "title": "Přidej svoje fotky ze svých sportovních událostí",
+            "description": "Media"
+        }
+    ],
+    "createEventTypes": {
+        "eventType": {
+            "name": "Událost",
+            "description": "text v čestině popisující událost, o čem to bude, co se tadm bude dělat"
+        },
+        "trainingType": {
+            "name": "Training",
+            "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+        },
+        "mentoringType": {
+            "name": "Mentoring",
+            "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+        },
+        "competitionType": {
+            "name": "Soutěž",
+            "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+        }
+    },
+    "login-page": {
+        "title": "Login",
+        "labels": {
+            "email": "Zadejte svůj email",
+            "password": "Zadejte Váše heslo",
+            "rememberMe": "Zapamatuj si mě"
+          
+        },
+        "errors": {
+            "error": "Uživatel nenalezen" ,
+            "passwordistooshort":"Password is too short",
+            "usernotfound":"User not found",
+            "Emailorpasswordisincorrect":"Email or password is incorrect",
+            "Emailisnotvalid":"Email is not valid!"
+        },
+        "links": {
+            "passwordRecovering": "Zapomenuté heslo?",
+            "register": "Ještě nezaregistrován?"
+        },
+        "buttons": {
+            "login": "Login",
+            "register": "Vytvořte si účet"
+        }
+    },
+    "register-page": {
+        "title": "Vytvořte si účet",
+        "labels": {
+            "email": "Napište Váš email",
+            "confirmEmail": "Potvrďte Váš email",
+            "password": "Napište Vaše heslo",
+            "confirmPassword": "Potvrdťe Vaše heslo",
+            "rememberMe": "Zapamatuj si mě"
+        },
+        "errors": {
+            "incorrectEmail": "Email je nesprávný!",
+            "busyEmail": "Email je zaneprázdněn!",
+            "incorrectPassword": "Nesprávný password",
+            "passwordIsNotReliable": "Nevhodný-nedoporučený password",
+            "userNotFound": "Uživatel nenalezen!",
+            "passwordistooshort":"Password is too short",
+            "userisalreadyexist":"User is already exist"
+        },
+        "links": {
+            "terms": [
+                "Přijímám",
+                "Smluvní podmínky služby"
+            ]
+        },
+        "buttons": {
+            "register": "Registrace"
+        }
+    },
+    
+  "from": "Od",
+  "speaks": "Mluví",
+  "sport-i-practice": "Sporty které dělám",
+  "sport-i-learn": "Sporty které bych rád dělal a naučil se",
+  "friends": "přátelé",
+  "about-me": "O mě",
+  "my-interests": "Moje zájmy",
+  "share": "Sdílet",
+  "gallery": "Galerie",
+  "albums": "Albumy",
+  "recomended-users": "Doporučení uživatelé",
+  "recomended-events": "Doporučené události",
+  "no-reviews": "žádné reviews",
+  "reviews": "reviews",
+  "location": "Lokace",
+  "difficulty": "Úroveň složitosti",
+  "low-difficulty": "Nízská úroveň",
+  "moderate-difficulty": "Střední úroveň",
+  "advanced-difficulty": "Advance úroveň",
+  "duration": "Délka",
+  "schedule": "Rozvrh",
+  "start-at": "Začátek v ",
+  "end-at": "Konec v",
+  "participants": "Účastníci",
+  "places": "místa",
+  "people-joined": "přidané",
+  "no-joined-people": "Nikdo se jěště nepřipojil",
+  "about-event": "O události",
+  "requirements": "Požadavky",
+  "rules": "Pravidla",
+  "no-requirements": "Organizátor ještě nespecifikoval žádné požadavky",
+  "route-description": "Popis trasy",
+  "primary-country": "Tvoje primární země",
+  "primary-city": "Tvoje primární město",
+  "your-message": "Tvoje zpráva",
+  "choose-social-network": "Vyber si tvoje sociální sdílení ",
+  "incorrect-phone-number": "Nesprávné tel.číslo",
+  "personal-info-saved": "Tvoje osobní údaje úspěšně uloženy!",
+  "personal-info-unsaved": "Error se stal během ukládání tvých osobních informací. Prosím zkus to znova nebo kontaktuj náš support team",
+  "your-sport-level": "Tvůj level sportu",
+  "sport-level": "Sport level",
+  "join-event-saved":"Uloženo",
+  "join-event-unsaved":"Neuloženo",
+  "my-events": "Moje události",
+  "title-not-found":"Ještě jsem nevytvořil žádnou aktivitu",
+  "subtitle-not-found": "Vytvoř tedy nějakou aktivitu",
+  "title-for-joined-banner": "Ještě si se neúčastnil žádné aktivity",
+"subtitle-for-joined-banner": "Tak neváhej a zúčastni se nějaké aktivity",
+"events-joined": "Navštívené události",
+"events-not-found": "Nenašli jsme sportovní události, které by odpovídali Vašemu požadavku",
+"users-not-found": "Nenašli jsme uživatele na Váš požadavek",
+
+"error-message": "Pardon, nenašli jsme co hledáte",
+"subtitle-error-message": "Tady Vám místo toho nabízíme následující",
+"account-settings":{
+    "account": "Účet",
+    "personal-info": "Profil",
+    "settings-time": "Jazykové a časové nastavení",
+    "social-media": "Sociální sítě",
+    "notifications": "Notifikace",
+    "privacy": "Privacy"
+      }
+
+
+
+    }
+

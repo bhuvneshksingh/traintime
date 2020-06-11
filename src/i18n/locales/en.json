@@ -1,0 +1,300 @@
+{
+  "site-name": "Train Time",
+  "home": "Home",
+  "create-activity": "Create an activity",
+  "edit-profile": "My profile",
+  "settings": "Settings",
+  "invite-friends": "Invite friends",
+  "logout": "Logout",
+  "news": "Latest news",
+
+  "about": "About",
+  "about-you": "About you",
+  "your-interests": "Your interests",
+  "your-location": "Your location",
+
+  "sign-up": "Sign Up",
+  "login": "Login",
+  "empty-favorite-list": "Your favorite list is empty",
+
+  "country": "Country",
+  "city": "City",
+
+  "discard": "Discard",
+  "confirm": "Confirm",
+  "save": "Save",
+  "cancel": "Cancel",
+  "close": "Close",
+  "save-sport": "Add sport",
+  "save-language": "Add language",
+  "save-changes": "Save changes?",
+  "search": "Search",
+  "createAccount": "Create account",
+  "createEvent": "Create event",
+  "next-step": "Next step",
+  "previous-step": "Previous step",
+  "upload-photo": "Upload photo",
+  "upload-cover-image": "Upload cover photo",
+  "upload-avatar-image": "Upload avatar photo",
+  "edit": "Edit",
+  "finish": "Finish",
+  "skip": "I will do it later",
+  "name": "Your name",
+  "first-name": "First name",
+  "middle-name": "Middle name",
+  "second-name": "Second name",
+  "birthday": "Birthday date",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "not-to-say": "Prefer not to say",
+  "day": "Day",
+  "month": "Month",
+  "year": "Year",
+  "sport": "Sport",
+  "phone-number": "Phone number",
+  "language": "Language",
+  "primary-language": "Your primary language",
+
+  "languages": "Languages you speak",
+  "practiced-sport": "What Sports do you practice? ",
+  "practiced-sport2": "Hint: Since what year ?",
+
+  "sports-to-learn": "Sports I would like to learn?",
+  "profile-picture": "Profile picture",
+  "edit-avatar": "Edit your avatar",
+  "choose-image": "Click to choose your image",
+  "yes": "Yes",
+  "no": "No",
+  "media": "Media",
+  "my-media": "My media",
+  "my-events": "My events",
+  "event-name": "Name of the event",
+  "describe-event": "Tell us you will do at this event",
+  "type-here": "Type here",
+  "event-requirements": "Event requirements",
+  "event-rules": "Event rules",
+  "where-event-start": "Where will the event start?",
+  "waypoints": "Waypoints",
+  "new_waypoint": "New waypoint",
+  "see-on-map": "See on map",
+  "event-start-date": "What day are you planning an event?",
+  "event-end-date": "At what time will the event finish?",
+  "choose-date": "Choose date and time",
+  "notification-interval": "How many days before the start of the event, you want to receive notifications before the client arrives?",
+
+  "places-banner-title": "Find your place in",
+  "users-banner-title": "Find users in",
+  "events-banner-title": "Find events in",
+
+  "users-not-found": "We could not find users for your request",
+  "events-not-found": "We could not find sports events for your request",
+  "error-message": "Sorry not found what you look for",
+"subtitle-error-message": "Here is what we can propose to you instead",
+  "searchForm": {
+    "title": "Choose what you want to find!",
+    "countryLabel": "COUNTRY",
+    "cityLabel": "CITY",
+    "sportLabel": "SPORT",
+    "languageLabel": "LANGUAGE",
+    "searchLabel": "Try: 'Biking'",
+    "searchButton": "Search"
+  },
+
+  "find-places": "Where are you going?",
+  "find-users": "Where are you going?",
+  "find-events": "Where are you going?",
+
+  "homeAccountBanner": {
+    "title": "Let's help people find you!",
+    "subtitle": "Create your personal account for free",
+    "photo_url": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1561046307/banner-1.png",
+    "photo_description": "Let's help people find you!",
+    "button_text": "Create account"
+  },
+  "homeEventBanner": {
+    "title": "Let's create your own event!",
+    "subtitle": "Create your personal account for free",
+    "photo_url": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1561047389/banner-2.png",
+    "photo_description": "Let's create your own event!",
+    "button_text": "Create event"
+  },
+  "personalInfoSteps": [
+    {
+      "name": "Step 1",
+      "title": "Let's add the key information about you",
+      "description": "Create account"
+    },
+    {
+      "name": "Step 2",
+      "title": "Tell people about your sport preferences",
+      "description": "Create account"
+    },
+    {
+      "name": "Step 3",
+      "title": "Tell people about your sport preferences",
+      "description": "Create account"
+    }
+  ],
+  "createEventSteps": [
+    {
+      "name": "Step 1",
+      "title": "Let's create new activity",
+      "description": "Choose event type"
+    },
+    {
+      "name": "Step 2",
+      "title": "Let's describe your event",
+      "description": "Describe your event"
+    },
+    {
+      "name": "Step 3",
+      "title": "Let's set the requirements",
+      "description": "Requirements"
+    },
+    {
+      "name": "Step 4",
+      "title": "Location",
+      "description": "Location"
+    },
+    {
+      "name": "Step 5",
+      "title": "Set the date of the event",
+      "description": "Location"
+    },
+    {
+      "name": "Step 6",
+      "title": "Add photos of yours from your sporting life",
+      "description": "Media"
+    }
+  ],
+  "createEventTypes": {
+    "eventType": {
+      "name": "Event",
+      "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+    },
+    "trainingType": {
+      "name": "Training",
+      "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+    },
+    "mentoringType": {
+      "name": "Mentoring",
+      "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+    },
+    "competitionType": {
+      "name": "Competition",
+      "description": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring whi"
+    }
+  },
+  "login-page": {
+    "title": "Login",
+    "labels": {
+      "email": "Type your email",
+      "password": "Type your password",
+      "rememberMe": "Remember me"
+    },
+    "errors": {
+      "error": "User not found!",
+      "passwordistooshort":"Password is too short",
+      "usernotfound":"User not found",
+      "Emailorpasswordisincorrect":"Email or password is incorrect",
+      "Emailisnotvalid":"Email is not valid!"
+    },
+    "links": {
+      "passwordRecovering": "Forgot password?",
+      "register": "Not registered yet?"
+    },
+    "buttons": {
+      "login": "Login",
+      "register": "Create an account"
+    }
+  },
+  "register-page": {
+    "title": "Create account",
+    "labels": {
+      "email": "Type your email",
+      "confirmEmail": "Confirm your email",
+      "password": "Type your password",
+      "confirmPassword": "Confirm your password",
+      "rememberMe": "Remember me"
+    },
+    "errors": {
+      "incorrectEmail": "Email is incorrect!",
+      "busyEmail": "Email is busy!",
+      "incorrectPassword": "Password is incorrect!",
+      "passwordIsNotReliable": "Password is not reliable!",
+      "userNotFound": "User not found!",
+      "passwordistooshort":"Password is too short",
+      "userisalreadyexist":"Such User already exists"
+    },
+    "links": {
+      "terms": ["I accept", "Terms and Conditions of Service"]
+    },
+    "buttons": {
+      "register": "Registration"
+    }
+  },
+
+  "from": "From",
+  "speaks": "Speaks",
+  "sport-i-practice": "Sports I practice",
+  "sport-i-learn": "Sports I would like to learn",
+  "friends": "friends",
+
+  "about-me": "About me",
+  "my-interests": "My interests",
+  "share": "Share",
+  "gallery": "Gallery",
+  "albums": "Albums",
+  "recomended-users": "Recommended users",
+  "recomended-events": "Recomended events",
+  "no-reviews": "No reviews",
+  "reviews": "reviews",
+  "location": "Location",
+  "difficulty": "Level of difficulty",
+  "low-difficulty": "Low difficulty",
+  "moderate-difficulty": "Moderate difficulty",
+  "advanced-difficulty": "Advanced difficulty",
+  "duration": "Duration",
+  "schedule": "Schedule",
+  "start-at": "Start at",
+  "end-at": "End at",
+  "participants": "Participants",
+  "places": "places",
+  "people-joined": "joined",
+  "no-joined-people": "No one has joined yet",
+  "about-event": "About event",
+  "requirements": "Requirements",
+  "rules": "Rules",
+  "no-requirements": "The organizer has not specified any requirements",
+  "route-description": "Route description",
+  "primary-country": "Your primary country",
+  "primary-city": "Your primary city",
+  "your-message": "Your message",
+  "choose-social-network": "Choose your social network",
+  "incorrect-phone-number": "Incorrect phone number",
+  "personal-info-saved": "Your personal info saved successfully!",
+  "personal-info-unsaved": "An error occurred while saving your personal information. Try again or contact support!",
+  "your-sport-level": "Your sport level",
+  "sport-level": "Sport level",
+  "join-event-saved":"Saved",
+  "join-event-unsaved":"Unsaved",
+  "delete-event-dialog-title": "Do you really wish to delete this event?",
+  "delete-event-dialog-content": "We want to make sure that you don't misclick, so do you really want to proceed?",
+  "discard-event-dialog-title": "Do you really want to leave this event?",
+  "discard-event-dialog-content": "We want to make sure that you don't misclick, so do you really want to proceed?",
+  "title-not-found":"I haven't created any event yet",
+  "subtitle-not-found": "Please try to create an event",
+  "title-for-joined-banner": "You have not joined any event yet",
+  "subtitle-for-joined-banner": "So don't wait and join some event",
+  "events-joined": "Events I joined",
+  
+"account": "Account",
+"personal-info": "Personal information",
+"settings-time": "Language & Time settings",
+"social-media": "Social media",
+"notifications": "Notifications",
+"privacy": "Privacy"
+  
+
+}

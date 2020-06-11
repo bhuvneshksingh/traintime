@@ -1,0 +1,206 @@
+{
+  "site-name": "Train Time Fr",
+  "home": "Home",
+  "create-activity": "Créer une Activité",
+  "edit-profile": "Mon profile",
+  "settings": "Paramètres",
+  "invite-friends": "Inviter des amis",
+  "logout": "Logout",
+  "news": "Dernières nouvelles",
+  "about": "A propos de nous",
+  "sign-up": "S'incrire",
+  "login": "Login",
+  "empty-favorite-list": "Votre liste de favoris est vide",
+
+  "discard": "Jeter",
+  "confirm": "Confirmer",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "save-sport": "Ajouter du sport",
+  "save-language": "Ajouter une language",
+  "search": "Chercher",
+  "createAccount": "Créer un compte",
+  "createEvent": "Créer un eventement",
+  "next-step": "Suivi a la prochaine",
+  "previous-step": "Returner a la précédent",
+  "upload-photo": "Diffuser un photo",
+  "edit": "Modifier",
+  "finish": "Terminer",
+  "skip": "Je le ferai plus tard",
+  "name": "Votre nom",
+  "first-name": "Prenom",
+  "middle-name": "Deuxième nom",
+  "second-name": "Nom de fammille",
+  "birthday": "La date de son anniversaire",
+  "gender": "Gender",
+  "male": "Masculin",
+  "female": "Feminine",
+  "not-to-say": "Je ne veux pas dire",
+  "day": "Jour",
+  "month": "Moins",
+  "year": "Année",
+  "sport": "Le sport",
+  "phone-number": "Numéro de teléphone",
+  "language": " La language",
+  "primary-language": "Votre language principale",
+  "languages": "Languez que vous parlez",
+  "practiced-sport": "Quel sports practiquez-vous?",
+  "sports-to-learn": "Sports je voudraiss apprendre?",
+  "profile-picture": "Image de profil",
+  "edit-avatar": "Editer votre avatar",
+  "choose-image": "Appuez pour choisir son photo",
+
+  "searchForm": {
+    "title": "Choisissez ce que vous voulez trouver",
+    "countryLabel": "PAYS",
+    "cityLabel": "VILLE",
+    "sportLabel": "SPORT",
+    "languageLabel": "LANGUAGE",
+    "searchLabel": "Essayez le vélo ",
+    "searchButton": "Chercher"
+  },
+  "findPlace": {
+    "searchLabel": "Où allez vous?"
+  },
+  "findUser": {
+    "searchLabel": "Où allez vous?"
+  },
+  "findEvent": {
+    "searchLabel": "Où allez vous?"
+  },
+  "homeAccountBanner": {
+    "title": "Aller aider les gens de vous trouver!",
+    "subtitle": "Créer votre profile personal gratuitement",
+    "photo_url": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1561046307/banner-1.png",
+    "photo_description": "Aller aider les gens de vous trouver!",
+
+    "button_text": "Créer un compte"
+  },
+  "homeEventBanner": {
+    "title": "Aller créer votre événement !",
+    "subtitle": "Créer votre profile personal gratuitement ",
+    "photo_url": "https://res.cloudinary.com/dhrg9zqj4/image/upload/v1561047389/banner-2.png",
+    "photo_description": "Créons votre propre événement!",
+    "button_text": "Créer événement"
+  },
+  "personalInfoSteps": [
+    {
+      "name": "Étape 1",
+      "title": "Ajoutons les informations clés sur vous",
+      "description": "Créer un compte"
+    },
+    {
+      "name": "Étape 2",
+      "title": "Parler aux gens de vos préférences sportives",
+      "description": "Créer un compte"
+    },
+    {
+      "name": "Étape 3",
+      "title": "parler aux gens de vos préférences sportives",
+      "description": "Créer un compte"
+    }
+  ],
+  "createEventSteps": [
+    {
+      "name": "Étape 1",
+      "title": "Créons une nouvelle activité",
+      "description": "Choisir le type d'événement"
+    },
+    {
+      "name": "Étape 2",
+      "title": "Répondre quelques questions s'il vous plaît",
+      "description": "Choisir le type d'événement"
+    },
+    {
+      "name": "Étape 3",
+      "title": "Décrivons votre événement",
+      "description": "Décrire votre événement"
+    },
+    {
+      "name": "Étape 4",
+      "title": "Determiner les exigences",
+      "description": "Les exigences"
+    },
+    {
+      "name": "Étape 5",
+      "title": "Emplacement",
+      "description": "Emplacement"
+    },
+    {
+      "name": "Étape 6",
+      "title": "Fixer la date de votre événement",
+      "description": "Emplacement"
+    },
+    {
+      "name": "Étape 7",
+      "title": "Ajoutez des photos de votre vie sportive",
+      "description": "Media"
+    }
+  ],
+  "createEventTypes": {
+    "eventType": {
+      "name": "Evènement",
+      "description": "Wikipédia en français est l'édition de Wikipédia rédigée en langue française. Cette édition fut fondée le 23 mars 2001, deux mois après la création officielle de Wikipédia. Le million d'articles en français a été atteint le 23 septembre 20101 et les deux millions d'articles le 8 juillet 2018. Aujourd'hui, cette édition compte au total 2 146 007 articles. Au 13 octobre 2019, c'est la 5e plus importante édition linguistique en termes de contenu2 après celles en anglais, en cebuano, en suédois et en allemand."
+    },
+    "trainingType": {
+      "name": "Entraînement",
+      "description": "Wikipédia en français est l'édition de Wikipédia rédigée en langue française. Cette édition fut fondée le 23 mars 2001, deux mois après la création officielle de Wikipédia. Le million d'articles en français a été atteint le 23 septembre 20101 et les deux millions d'articles le 8 juillet 2018. Aujourd'hui, cette édition compte au total 2 146 007 articles. Au 13 octobre 2019, c'est la 5e plus importante édition linguistique en termes de contenu2 après celles en anglais, en cebuano, en suédois et en allemand."
+    },
+    "mentoringType": {
+      "name": "Mentoring",
+      "description": "Wikipédia en français est l'édition de Wikipédia rédigée en langue française. Cette édition fut fondée le 23 mars 2001, deux mois après la création officielle de Wikipédia. Le million d'articles en français a été atteint le 23 septembre 20101 et les deux millions d'articles le 8 juillet 2018. Aujourd'hui, cette édition compte au total 2 146 007 articles. Au 13 octobre 2019, c'est la 5e plus importante édition linguistique en termes de contenu2 après celles en anglais, en cebuano, en suédois et en allemand."
+    },
+    "competitionType": {
+      "name": "Competition",
+      "description": "Wikipédia en français est l'édition de Wikipédia rédigée en langue française. Cette édition fut fondée le 23 mars 2001, deux mois après la création officielle de Wikipédia. Le million d'articles en français a été atteint le 23 septembre 20101 et les deux millions d'articles le 8 juillet 2018. Aujourd'hui, cette édition compte au total 2 146 007 articles. Au 13 octobre 2019, c'est la 5e plus importante édition linguistique en termes de contenu2 après celles en anglais, en cebuano, en suédois et en allemand."
+    }
+  },
+  "login-page": {
+    "title": "Login",
+    "labels": {
+      "email": "Tapez votre email",
+      "password": "Tapez votre mot de passe",
+      "rememberMe": "Se souvenir de moi"
+    },
+    "errors": {
+      "error": "Utilisateur non trouvé!",
+      "passwordistooshort":"Le mot de passe est trop court",
+      "usernotfound":"Utilisateur non trouvé!",
+      "Emailorpasswordisincorrect":"E-mail ou mot de passe incorrect",
+      "Emailisnotvalid":"L'email n'est pas valide!"
+    },
+    "links": {
+      "passwordRecovering": "Oublié mot de passe?",
+      "register": "N'est pas encore enregistré?"
+    },
+    "buttons": {
+      "login": "Login",
+      "register": "Créer un compte"
+    }
+  },
+  "register-page": {
+    "title": "Créer un compte",
+    "labels": {
+      "email": "Tappez votre email",
+      "confirmEmail": "Confirmer votre email",
+      "password": "Confirmer votre password",
+      "confirmPassword": "Confirmer votre password",
+      "rememberMe": "Se souvenir de moi"
+    },
+    "errors": {
+      "incorrectEmail": "Email est inccorrect!",
+      "busyEmail": "Email est occuppé !",
+      "incorrectPassword": "Motte de passe est  incorrect!",
+      "passwordIsNotReliable": "Motte de passe est pas fiable!",
+      "userNotFound": "Utilizateur non trouvé!",
+      "passwordistooshort":"Password is too short",
+      "userisalreadyexist":"User is already exist"
+    },
+    "links": {
+      "terms": ["J'accepte "," Termes et conditions du service"]
+    },
+    "buttons": {
+      "register": "Enregistrement"
+    }
+  }
+}

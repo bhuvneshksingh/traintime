@@ -1,0 +1,122 @@
+// @import "./fonts.scss";
+@import "./typography.scss";
+@import "./colors.scss";
+@import "./sizes.scss";
+// @import "./fonts.scss";
+
+body,
+html {
+  @include text-body;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto !important;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgba(246, 173, 123, 0.09);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+  button {
+    box-sizing: border-box;
+  }
+
+  .page-container {
+    width: 100%;
+    max-width: $width-content-container;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    //background-color: #FAFAFA;
+
+    .page-section {
+      width: 100%;
+      height: auto;
+      position: relative;
+
+      padding: $vertical-intends-desktop $horizontal-intends-desktop;
+      @media only screen and (max-width: 960px) {
+        padding: $vertical-intends-tablets $horizontal-intends-tablets;
+      }
+      @media only screen and (max-width: 600px) {
+        padding: $vertical-intends-mobiles $horizontal-intends-mobiles;
+      }
+    }
+  }
+}
+
+section,
+header,
+div {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.714rem;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.material-icons.sm {
+  font-size: 1.286rem;
+}
+
+.material-icons.lg {
+  font-size: 2.571rem;
+}
+
+.material-icons.lg2 {
+  font-size: 3.428rem;
+  font-feature-settings: "liga";
+}
+
+.material-icons.sm {
+  font-size: 18px;
+}
+
+.material-icons.lg {
+  font-size: 36px;
+}
+
+.material-icons.lg2 {
+  font-size: 48px;
+}

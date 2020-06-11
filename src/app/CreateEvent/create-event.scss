@@ -1,0 +1,85 @@
+.create-event-content {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+  padding: 0 74px;
+
+  @media only screen and (max-width: 960px) {
+    padding: 0 24px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 0 8px;
+  }
+
+  .steps-container {
+    #step-slide {
+      width: 100%;
+      padding: 42px 64px;
+      @media only screen and (max-width: 1024px) {
+        padding: 32px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        padding: 8px;
+      }
+    }
+  }
+
+  .activity-type-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+    align-items: center;
+  }
+
+  .question {
+    margin-top: 5%;
+    padding-left: 15%;
+    font-family: Roboto, serif;
+    font-size: 1.714rem;
+    color: rgba(0, 0, 0, 0.87);
+    align-self: center;
+    justify-self: center;
+  }
+
+  .create-event-control-buttons {
+    // padding: 0 72px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+  
+      .progress-container {
+        position: relative;
+  
+        .progress {
+          color: green;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -12px;
+          margin-left: -12px;
+        }
+      
+    }
+
+    .event-control-button {
+      min-height: 50px !important;
+      min-width: 150px !important;
+
+      @media only screen and (max-width: 600px) {
+        min-height: 40px !important;
+        min-width: 100px !important;
+      }
+    }
+
+  
+  }
+}
