@@ -1,0 +1,125 @@
+@import "../../scss/colors.scss";
+
+.footer-container {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px;
+  background-color: $color-footer-background;
+  color: $color-footer-text;
+
+  a {
+    color: $color-footer-links;
+    size: 1.143rem;
+  }
+
+  .info-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+    .info-box {
+      margin: 8px;
+
+      h3 {
+        font-size: 1.143rem;
+        color: white;
+        padding-bottom: 6px;
+      }
+
+      ul {
+        padding: unset;
+        list-style-type: none;
+      }
+
+      li {
+        margin-top: 4px;
+      }
+
+      .divider-color {
+        background-color: $color-footer-divider;
+      }
+    }
+
+    .main-content {
+      flex-grow: 1;
+    }
+
+    .app-download {
+      flex-grow: 1;
+      max-width: 300px;
+
+      .link-container {
+        max-width: 300px;
+        margin-top: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .bottom-info-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (max-width: 1200px) {
+      flex-direction: column;
+      min-height: 150px;
+    }
+
+    h4 {
+      margin: unset;
+      font-size: 1.143rem;
+      text-align: center;
+    }
+
+    p {
+      margin: unset;
+      font-size: 1.143rem;
+    }
+
+    .share-buttons-container {
+      width: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+      @media only screen and (max-width: 600px) {
+      }
+
+      div {
+        height: 28px;
+        width: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      }
+
+      .facebook-color {
+        background-color: $color-facebook;
+      }
+
+      .twitter-color {
+        background-color: $color-twitter;
+      }
+
+      .youtube-color {
+        background-color: $color-youtube;
+      }
+    }
+  }
+}

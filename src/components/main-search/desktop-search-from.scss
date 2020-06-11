@@ -1,0 +1,270 @@
+.desktop-search-section {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  max-height: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  //z-index: -4;
+
+  @media only screen and (max-width: 960px) {
+    max-height: unset;
+    height: auto;
+  }
+
+  .desktop-background-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    #ReactBackgroundSlider {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .desktop-main-search {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 100%;
+    background-color: #fffd;
+ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 50px;
+
+    // optimization for tablets
+    @media only screen and (max-width: 960px) {
+      height: auto;
+      max-width: 500px;
+
+      margin: 75px auto;
+    }
+
+    .main-search-form {
+      padding: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        width: 100%;
+        text-align: left;
+        max-width: 861px;
+        font-size: 2.429rem;
+
+        // optimization for tablets
+        @media only screen and (max-width: 960px) {
+          text-align: center;
+          font-size: 1.143rem;
+        }
+
+        // optimization for mobile phones
+        @media only screen and (max-width: 600px) {
+          text-align: center;
+          margin-bottom: 0;
+          font-weight: 500;
+          font-size: 1.286rem;
+        }
+      }
+
+      .main-form-input-main-holder {
+        display: flex;
+        flex-direction: column;
+        max-width: 861px;
+        width: 100%;
+        margin: 20px;
+
+        // optimization for mobile phones
+        @media only screen and (max-width: 600px) {
+          margin: 8px 14px;
+        }
+
+        .form-input-holder-small {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          @media only screen and (max-width: 960px) {
+            flex-direction: column;
+            height: auto;
+            padding: 1em;
+          }
+          // optimization for mobile phones
+          @media only screen and (max-width: 600px) {
+            flex-direction: column;
+            height: auto;
+            padding: 0.6em;
+          }
+
+          .main-form-input-holder {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+            width: 100%;
+            justify-content: space-around;
+
+            // optimization for tablets
+            @media only screen and (max-width: 960px) {
+              max-width: unset;
+              margin-top: 15px;
+            }
+
+            // optimization for mobile phones
+            @media only screen and (max-width: 600px) {
+              max-width: unset;
+              margin-top: 8px;
+            }
+
+            label {
+              font-size: 1.286rem;
+              @media only screen and (max-width: 600px) {
+                font-size: 1rem;
+              }
+            }
+
+            .main-form-input {
+              padding: 1em;
+              border-radius: 3px;
+              font-size: 1.142rem;
+              border: 1px solid #bfbfbf;
+            }
+
+            .main-form-input-mui {
+              padding: 1em;
+              border-radius: 3px;
+              font-size: 1.142rem;
+              border: 1px solid #bfbfbf;
+              margin-top: 16px;
+              margin-bottom: 8px;
+
+              input {
+                padding: unset;
+              }
+            }
+
+            .react-select-container {
+              .react-select__control {
+                padding: 0.4em;
+                border-radius: 3px;
+                font-size: 1.142rem;
+                border: 1px solid #bfbfbf;
+                margin-top: 16px;
+                margin-bottom: 8px;
+
+                // optimization for tablets
+                @media only screen and (max-width: 960px) {
+                  padding: 0.2em;
+                  font-size: 1rem;
+                }
+                // optimization for mobile phones
+                @media only screen and (max-width: 600px) {
+                  padding: 0.1em;
+                  font-size: 1rem;
+                  margin-top: 4px;
+                  margin-bottom: 2px;
+                }
+              }
+
+              .react-select__menu {
+                z-index: 9;
+              }
+            }
+
+            .MuiInput-underline:before,
+            .MuiInput-underline:after {
+              border-bottom: unset !important;
+            }
+          }
+        }
+
+        .form-input-holder-big {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin-top: 14px;
+          align-items: center;
+
+          // optimization for tablets
+          @media only screen and (max-width: 960px) {
+            flex-direction: column;
+            height: auto;
+            padding: 1em;
+            margin-top: unset;
+          }
+
+          // optimization for mobile phones
+          @media only screen and (max-width: 600px) {
+            flex-direction: column;
+            height: auto;
+            padding: 0.6em;
+            margin-top: unset;
+          }
+
+          .main-form-input-holder {
+            display: flex;
+            flex-direction: column;
+            //  // optimization for tablets
+            //  @media only screen and (max-width: 960px) {
+            //    max-width: unset;
+            //    margin-top: 15px;
+            //  }
+            //
+          }
+
+          .input-long {
+            width: 100%;
+            max-width: 640px;
+
+            .MuiFormControl-marginNormal {
+              margin: unset;
+            }
+          }
+
+          .input-btn {
+            width: 100%;
+            max-width: 200px;
+
+            // optimization for tablets
+            @media only screen and (max-width: 960px) {
+              max-width: unset;
+              margin-top: 15px;
+            }
+
+            // optimization for mobile phones
+            @media only screen and (max-width: 600px) {
+              max-width: unset;
+              margin-top: 8px;
+            }
+
+            button {
+              padding: 0.5em;
+              background: #2699fb;
+              color: white;
+              font-size: 1.286rem;
+              border-radius: 3px;
+              border: unset;
+              display: flex;
+              justify-content: space-evenly;
+
+              svg {
+                width: 28px;
+                height: 28px;
+              }
+
+              // optimization for mobile phones
+              @media only screen and (max-width: 600px) {
+                padding: 0.4em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

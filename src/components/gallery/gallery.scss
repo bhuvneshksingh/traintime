@@ -1,0 +1,262 @@
+@import "../../scss/colors.scss";
+
+.grid-list {
+  width: 100vw;
+  height: 100vh;
+
+  .control-buttons {
+    text-align: right;
+
+    button {
+      color: #ffffff;
+    }
+  }
+}
+
+.gallery-container {
+  max-width: 1900px;
+
+  .gallery {
+    width: 100%;
+    position: relative; // comment the same as in profile to center the button
+    border: 1px solid rgba(112, 112, 112, 0.18);
+    border-radius: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .slides-container {
+      height: 100%;
+      position: relative;
+
+      .photo-slide {
+        width: 100%;
+        height: 100%;
+        display: inline-block; // comment all the slides are in block
+        position: relative;
+        vertical-align: middle;
+        background-color: black;
+
+        img {
+          max-height: 100%;
+          max-width: 100%;
+          // height: 100%;
+          // width: 100%;
+          // object-fit: cover;
+          width: auto;
+          height: auto;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+    }
+
+    .control-button {
+      width: 80px;
+      height: 120px;
+      position: absolute;
+      top: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media only screen and (max-width: 600px) {
+        width: 40px;
+        height: 60px;
+      }
+
+      svg {
+        width: 42px;
+        height: auto;
+        color: white;
+      }
+    }
+
+    .button-style {
+      border-radius: 3px;
+      background-color: rgba(0, 0, 0, 0.28);
+      transition: transform ease-in 0.1s;
+    }
+
+    .option-button {
+      color: white;
+      height: 42px;
+      padding: auto;
+      margin: 8px;
+      @media only screen and (max-width: 600px) {
+        height: unset;
+      }
+
+      svg {
+        width: 42px;
+      }
+    }
+
+    .next {
+      right: 0;
+      transform: translate(-50%, -50%);
+      @media only screen and (max-width: 600px) {
+        transform: translate(-10%, -50%);
+      }
+    }
+
+    .back {
+      left: 0;
+      transform: translate(50%, -50%);
+      @media only screen and (max-width: 600px) {
+        transform: translate(10%, -50%);
+      }
+    }
+
+    .options {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+
+      .buttons {
+        //width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        @media only screen and (max-width: 600px) {
+          justify-content: space-around;
+        }
+      }
+
+      .gallery-photo-title {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.38);
+
+        .slide-description {
+          display: grid;
+          flex-grow: 1;
+          flex-basis: 60%;
+          padding: 14px;
+          grid-template-columns: 1 2;
+          grid-gap: 4px 28px;
+          @media only screen and (max-width: 600px) {
+            min-height: 120px;
+          }
+
+          h4 {
+            margin: 0;
+            font-size: 1.714rem;
+            grid-row: 1;
+            word-break: break-word;
+            white-space: normal;
+            color: rgba(255, 255, 255, 0.87);
+            @media only screen and (max-width: 600px) {
+              font-size: 1.286rem;
+            }
+          }
+
+          h5 {
+            margin: 0;
+            font-size: 1.142rem;
+            grid-row: 2;
+            word-break: break-word;
+            white-space: normal;
+            color: rgba(255, 255, 255, 0.87);
+            @media only screen and (max-width: 600px) {
+              font-size: 1.286rem;
+            }
+          }
+
+          p {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            margin: 0;
+            font-size: 1.286rem;
+            color: rgba(255, 255, 255, 0.87);
+            word-break: break-word;
+            white-space: normal;
+            text-align: justify;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            @media only screen and (max-width: 600px) {
+              grid-row: 3;
+            }
+          }
+        }
+
+        .preview-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-grow: 1;
+          flex-basis: 40%;
+
+          @media only screen and (max-width: 600px) {
+            display: none; // to show off the preview small picture in iphone 5 revision
+          }
+
+          .preview {
+            width: 114px;
+            height: 114px;
+            object-fit: cover;
+            margin: 2px;
+            transition: all 0.2s ease-in-out;
+            border-radius: 3px;
+          }
+
+          .preview:hover {
+            //box-shadow: 1px 1px #53A7EA, 2px 2px #53A7EA, 3px 3px #53A7EA;
+            transform: scale(1.02) !important;
+          }
+        }
+      }
+    }
+  }
+
+  .albums-container {
+    h3 {
+      margin: 18px 0 18px 0;
+    }
+
+    .album-card {
+      width: calc(100% - 10px) !important;
+      margin: auto;
+
+      .media {
+        height: 240px;
+        position: relative;
+
+        .card-media-description {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 16px 22px;
+          background-color: rgba(0, 0, 0, 0.57);
+
+          h5 {
+            font-size: 1.286rem;
+            margin: 0;
+            word-break: break-word;
+            white-space: normal;
+            text-align: justify;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.87);
+
+            span {
+              font-size: 1.142rem;
+            }
+          }
+
+          p {
+            font-size: 1rem;
+            margin: 8px 0 0 0;
+            word-break: break-word;
+            white-space: normal;
+            text-align: justify;
+            color: rgba(255, 255, 255, 0.87);
+          }
+        }
+      }
+    }
+  }
+}

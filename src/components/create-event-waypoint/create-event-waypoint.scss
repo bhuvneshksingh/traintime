@@ -1,0 +1,202 @@
+.show-event-waypoint {
+    // min-height: 178px;
+    width: 100%;
+    border: 1px solid rgba(112, 112, 112, 0.18);
+    border-radius: 3px;
+    padding: 16px;
+    position: relative;
+    display: flex;
+
+    margin-bottom: 12px;
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    img {
+        border-radius: 3px;
+        object-fit: cover;
+        min-width: 146px;
+        height: 146px;
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
+        }
+    }
+
+    .edit-button {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        background-color: rgba(255, 247, 143, 1);
+        width: 36px;
+        height: 36px;
+
+        @media only screen and (max-width: 600px) {
+            width: 42px;
+            height: 42px;
+            top: 8px;
+            right: 8px;
+        }
+    }
+
+    .waypoint-description {
+        margin-left: 32px;
+
+        @media only screen and (max-width: 600px) {
+            margin: 0;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 64px;
+
+            @media only screen and (max-width: 600px) {
+                flex-direction: column;
+                padding: 0;
+            }
+
+            h4 {
+                font-size: 1.286rem;
+                color: rgba(0, 0, 0, 0.87);
+                font-weight: 500;
+                margin: 0;
+
+                @media only screen and (max-width: 600px) {
+                    margin: 4px 0 0 0;
+                }
+            }
+
+            p {
+                font-size: 1.143rem;
+                color: rgba(0, 0, 0, 0.6);
+                margin: 0;
+
+                @media only screen and (max-width: 600px) {
+                    font-size: 1rem;
+                    width: 100%;
+                    margin: 4px 0 0 0;
+                }
+            }
+        }
+
+        p {
+            font-size: 1.143rem;
+            color: rgba(0, 0, 0, 0.6);
+            margin: 32px 0 0 0;
+            text-align: justify;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1rem;
+                margin: 12px 0 0 0;
+            }
+        }
+    }
+}
+
+.edit-event-waypoint {
+    border: 1px solid rgba(112, 112, 112, 0.18);
+    border-radius: 3px;
+    padding: 16px;
+    width: 100%;
+    margin-bottom: 12px;
+
+    .elements-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+
+        .add-photo-button {
+            min-width: 146px;
+            height: 146px;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(112, 112, 112, 0.28);
+            padding: 0;
+
+            img {
+                border-radius: 3px;
+                object-fit: cover;
+                width: 146px;
+                height: 146px;
+
+                @media only screen and (max-width: 600px) {
+                    width: 100%;
+                }
+            }
+
+            svg {
+                width: 36px;
+                height: 36px;
+                color: rgba(0, 0, 0, 0.57);
+            }
+
+            div {
+                height: 32px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgba(255, 255, 255, 0.87);
+
+                background-color: rgba(0, 0, 0, 0.28);
+            }
+        }
+
+        .waypoint-text-fields-container {
+            margin-left: 22px;
+            width: 100%;
+
+            @media only screen and (max-width: 600px) {
+                margin: 0;
+            }
+
+            .horizontal-text-fields-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                @media only screen and (max-width: 600px) {
+                    flex-direction: column;
+                }
+
+                .waypoint-name {
+                    width: 50%;
+                    margin-right: 22px;
+
+                    @media only screen and (max-width: 600px) {
+                        width: 100%;
+                        margin: 18px 0 0 0;
+                    }
+                }
+
+                .waypoint-location {
+                    width: 50%;
+
+                    @media only screen and (max-width: 600px) {
+                        width: 100%;
+                        margin: 18px 0 0 0;
+                    }
+                }
+            }
+
+            .waypoint-description {
+                width: 100%;
+            }
+        }
+    }
+
+    .save-waypoint-button {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}

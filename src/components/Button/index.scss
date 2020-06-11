@@ -1,0 +1,31 @@
+.MuiButton-root.button {
+  background: transparent;
+  border: 1px solid #0d47a1;
+  border-radius: 4px;
+  color: #0d47a1;
+  font-family: 'Medium', 'Roboto';
+  font-size: 14px;
+  height: 50px;
+  min-width: 180px;
+  outline: none;
+  text-transform: uppercase;
+
+  img {
+    margin-right: 10px;
+  }
+
+  &.button--primary {
+    background: #0d47a1;
+    color: #ffffff;
+  }
+
+  &.button--secondary {
+    background: transparent;
+    border: 1px solid #7070702e;
+    color: #00000099;
+    font-size: 16px;
+    height: 42px;
+    min-width: 150px;
+    text-transform: none;
+  }
+}

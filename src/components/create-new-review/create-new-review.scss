@@ -1,0 +1,17 @@
+.review-form {
+  width: 400px;
+
+  .rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      margin-left: 18px;
+    }
+  }
+
+  .input {
+    width: 100%;
+  }
+}

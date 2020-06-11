@@ -1,0 +1,15 @@
+@import "../../scss/sizes.scss";
+
+.page-section {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  padding: $vertical-intends-desktop $horizontal-intends-desktop;
+  @media only screen and (max-width: 960px) {
+    padding: $vertical-intends-tablets $horizontal-intends-tablets;
+  }
+  @media only screen and (max-width: 600px) {
+    padding: $vertical-intends-mobiles $horizontal-intends-mobiles;
+  }
+}

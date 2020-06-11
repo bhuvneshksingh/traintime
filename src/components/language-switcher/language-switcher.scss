@@ -1,0 +1,78 @@
+@import "../../scss/colors.scss";
+
+.language-switcher {
+
+  button {
+    @media only screen and (max-width: 960px) {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 12px 16px;
+    }
+
+    .MuiButton-label {
+      span {
+        display: none;
+
+        @media only screen and (max-width: 960px) {
+          display: unset;
+          text-transform: capitalize;
+          font-size: 1rem;
+        }
+      }
+
+      svg {
+        @media only screen and (max-width: 960px) {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}
+
+.languages-dropdown-menu {
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 24px;
+      margin-right: 12px;
+    }
+  }
+
+  .MuiMenu-paper {
+    ul {
+      min-width: 150px;
+    }
+  }
+
+}
+
+.desktop-language-picker {
+  margin: 0 0 0 16px;
+
+  p {
+    color: $color-desktop-language-picker;
+    margin-left: 16px;
+  }
+
+  svg {
+    color: $color-desktop-language-picker;
+  }
+}
+
+.mobile-language-picker {
+  margin: 0 16px 0 16px;
+
+  p {
+    color: $color-mobile-language-picker;
+    margin-left: 16px;
+  }
+}
+
+.language-button-width {
+  width: 100%;
+}

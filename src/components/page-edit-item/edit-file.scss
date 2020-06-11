@@ -1,0 +1,23 @@
+.page-edit-item {
+  max-width: 600px;
+  margin: auto;
+
+  &__title {
+    font-size: 1.142rem;
+  }
+
+  &__content {
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 12px 0;
+  }
+}

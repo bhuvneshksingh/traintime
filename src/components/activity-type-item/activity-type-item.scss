@@ -1,0 +1,98 @@
+@import "../../scss/sizes.scss";
+@import "../../scss/colors.scss";
+
+.activity-type-item {
+    border: 1px solid rgba(112, 112, 112, 0.14) !important;
+    border-radius: 5px 5px 5px 5px !important;
+    display: flex;
+    flex-direction: row;
+    padding: 44px !important;
+    max-width: 500px !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 12px !important;
+    align-content: center;
+    justify-content: space-evenly;
+
+    line-height: unset !important;
+    letter-spacing: unset !important;
+    text-transform: unset !important;
+
+    @media only screen and (max-width: 1280px) {
+        max-width: 460px !important;
+        padding: 32px !important;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        max-width: 390px !important;
+        margin: 4px !important;
+        padding: 22px !important;
+    }
+
+    @media only screen and (max-width: 960px) {
+    }
+
+    @media only screen and (max-width: 600px) {
+        max-width: unset !important;
+        margin: 4px !important;
+        padding: 16px !important;
+    }
+
+    img {
+        display: flex;
+        max-width: 74px;
+        max-height: 74px;
+        flex-direction: row;
+        margin-right: 50px;
+
+        @media only screen and (max-width: 1024px) {
+            margin-right: 32px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            max-width: 42px;
+            max-height: 42px;
+            margin-right: 18px;
+        }
+    }
+
+    .tile-text {
+        p:first-child {
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 1.714rem;
+            text-align: left;
+            font-family: Roboto, serif;
+            margin: 0 0 12px 0;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1.286rem;
+                margin: 0 0 8px 0;
+            }
+        }
+
+        p:last-child {
+            color: rgba(0, 0, 0, 0.6);
+            padding-right: 30px;
+            font-size: 1.143rem;
+            font-family: Roboto, serif;
+            margin: 0;
+            text-align: left;
+            text-align: justify;
+
+            @media only screen and (max-width: 1024px) {
+                padding-right: 12px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                font: size 1rem;
+                padding-right: 4px;
+            }
+        }
+    }
+
+    .lock-icon {
+        position: absolute;
+        top: 18px;
+        right: 18px;
+    }
+}

@@ -1,0 +1,87 @@
+.card {
+  border: 1px solid #70707047;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 288px;
+
+  &__img {
+    border-radius: 3px 3px 0 0;
+    display: block;
+    height: 162px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  &__close {
+    align-items: center;
+    background: #00000047;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 24px;
+  }
+
+  &__editAlbumForm {
+    margin: 10px 0 0 10px;
+  }
+
+  &__title {
+    color: #2a2626de;
+    font-family: 'Medium', 'Roboto';
+    font-size: 20px;
+    margin: 8px 14px 0 14px;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 10px 14px;
+
+    .button-edit {
+      color: #000000de;
+      cursor: pointer;
+      font-family: 'Medium', 'Roboto';
+      font-size: 14px;
+      letter-spacing: 0;
+      padding: 0;
+      text-transform: uppercase;
+      border: none;
+      outline: none;
+    }
+
+    .button-delete {
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+
+  .MuiInput-input {
+    font-size: 14px;
+    height: 40px;
+    padding-left: 20px;
+  }
+
+  .MuiInput-underline:before {
+    border-bottom: 1px solid #7070702e;
+  }
+
+  .photo {
+    &__title input {
+      font-size: 16px;
+    }
+    &__description textarea {
+      height: 130px;
+    }
+  }
+}

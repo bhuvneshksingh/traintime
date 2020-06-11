@@ -1,0 +1,9 @@
+.card__photo {
+    max-width: 200px;
+    margin-bottom: 50px;
+
+    &:not(:last-child){
+        margin-right: 50px;
+    }
+    
+}

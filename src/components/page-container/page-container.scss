@@ -1,0 +1,10 @@
+@import "../../scss/sizes.scss";
+
+.page-container {
+  width: 100%;
+  max-width: $width-content-container;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+}
