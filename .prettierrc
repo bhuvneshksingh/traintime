@@ -1,0 +1,30 @@
+{
+  "useTabs": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+   "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {
+        "parser": "babel-flow",
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "jsxBracketSameLine": true,
+        "bracketSpacing": true,
+        "semi": false
+      }
+    },
+    {
+      "files": ["*.scss"],
+      "options": {
+        "parser": "scss"
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
